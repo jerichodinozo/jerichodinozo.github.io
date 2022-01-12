@@ -1,2 +1,0 @@
-# JARB!!
-# website under maintenance
