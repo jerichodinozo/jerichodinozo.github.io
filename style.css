@@ -172,6 +172,117 @@ a {
     background-color: #444DFF;
 }
 
+#projects-page {
+    display: flex;
+   justify-content: center;
+}
+
+.projects-area {
+    flex-direction: column;
+}
+
+.work-item {
+    padding: 30px;
+    display: flex;
+    
+}
+
+.project-title {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#bracket {
+    font-size: 20px;
+    color: #6DDFFF;
+}
+
+.project-description {
+    max-width: 500px;
+    padding: 30px;
+}
+
+.project-img {
+    max-width: 400px;
+}
+
+#contact-page {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    width: 500px;
+    height: 200px;
+    border: 2px solid #7AA9FF;
+    background-color: #2B2B2B;
+    border-radius: 3px;
+    padding: 12px;
+    font-size: 14px;
+    font-family: 'JetBrains Mono', monospace;
+    color: #7AA9FF;
+}
+
+textarea::placeholder {
+    color: #7AA9FF;
+}
+
+#help-text-field input{
+    width:500px;
+}
+
+.text-field {
+    position: relative;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.text-field input{
+    border: 2px solid #7AA9FF;
+    border-bottom: none;
+    -webkit-appearance:none;
+    -ms-appearance: none;
+    -moz-appearance:none;
+    appearance: none;
+    background: #2B2B2B;
+    padding: 12px;
+    border-radius: 3px;
+    width: 250px;
+    outline:none;
+    font-size:14px;
+}
+
+
+.text-field .placeholder {
+    font-family: 'JetBrains Mono', monospace;
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #7AA9FF;
+    transition: 
+        top 0.3s ease,
+        font-size 0.3s ease,
+        color 0.3s ease;
+}
+
+.text-field input:valid + .placeholder,
+.text-field input:focus + .placeholder {
+    top: 10px;
+    font-size: 10px;
+    color: #7AA9FF;
+}
+
+#contact-msg {
+    padding-top: 30px;
+}
+
+.send-btn {
+    color: #7AA9FF;
+    background: transparent;
+    border: 2px solid #7AA9FF;
+}
+
 .js-scroll {
   
     opacity: 0;
