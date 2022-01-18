@@ -57,12 +57,73 @@ a {
 .about-desc {
     margin-right: 400px;
     margin-left: 400px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .page-title {
     font-size: 30px;
     color: #7AA9FF;
+}
+
+#skills-page {
+    display: flex;
+    justify-content: center;
+}
+
+.skill-item {
+    margin-bottom: 30px;
+    padding-top: 15px;
+    display: grid;
+    grid-template-rows:    repeat(1, 10px);
+    grid-template-columns: repeat(5, 70px);
+}
+
+.skill-bar { 
+    margin-left: 20px;
+}
+
+.grey-out {
+    background-color: transparent;
+    border: 2px solid grey;
+}
+
+.skills-area {
+    text-align: center;
+}
+
+#html-skill {
+    color: #FF5733;
+}
+
+#html-bar {
+    background-color: #FF5733;
+    border: 2px solid #FF5733;
+}   
+
+#css-skill {
+    color: #33ACFF;
+}
+#css-bar  {
+    background-color: #33ACFF;
+    border: 2px solid #33ACFF;
+}
+
+#js-skill {
+    color: #FFE844;
+}
+
+#js-bar {
+    background-color: #FFE844;
+    border: 2px solid #FFE844;
+}
+
+#react-skill {
+    color: #44FFE0;
+}
+
+#react-bar {
+    background-color: #44FFE0;
+    border: 2px solid #44FFE0;
 }
 
 .js-scroll {
