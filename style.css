@@ -8,7 +8,7 @@ html {
 
 .page {
     display: flex;
-    height: 100vh;
+    
 }
 
 nav {
@@ -36,6 +36,10 @@ nav {
 a {
     text-decoration: none;
     color: #7AA9FF;
+}
+
+.fullscreen {
+    height: 100vh;
 }
 
 #intro-page {
@@ -175,6 +179,7 @@ a {
 #projects-page {
     display: flex;
    justify-content: center;
+   margin-bottom: 20vh;
 }
 
 .projects-area {
@@ -204,6 +209,10 @@ a {
 
 .project-img {
     max-width: 400px;
+}
+
+#web-link {
+    color: #B8EB80;
 }
 
 #contact-page {
@@ -276,6 +285,10 @@ textarea::placeholder {
 
 #contact-msg {
     padding-top: 30px;
+}
+
+.contact-area {
+    padding-bottom: 200px;
 }
 
 .send-btn {
