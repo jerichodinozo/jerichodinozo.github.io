@@ -250,6 +250,7 @@ textarea::placeholder {
     width: 250px;
     outline:none;
     font-size:14px;
+    color: #7AA9FF;
 }
 
 
