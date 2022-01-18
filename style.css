@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+html {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #2B2B2B;
+}
+
+.page {
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    z-index: 1;
+}
+
+#navbar ul {
+    list-style: none;
+    display: block;
+    z-index: 1;
+}
+
+#navbar li {
+    color: #7AA9FF;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #7AA9FF;
+}
+
+#intro-page {
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-text {
+    font-size: 20px;
+    color: #EAFFFF;
+}
