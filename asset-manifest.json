@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/jerichodinozo.github.io/jerichodinozo.github.io/static/css/main.fa28d95e.css",
-    "main.js": "/jerichodinozo.github.io/jerichodinozo.github.io/static/js/main.15414d5b.js",
-    "static/js/787.d57fd365.chunk.js": "/jerichodinozo.github.io/jerichodinozo.github.io/static/js/787.d57fd365.chunk.js",
-    "index.html": "/jerichodinozo.github.io/jerichodinozo.github.io/index.html",
-    "main.fa28d95e.css.map": "/jerichodinozo.github.io/jerichodinozo.github.io/static/css/main.fa28d95e.css.map",
-    "main.15414d5b.js.map": "/jerichodinozo.github.io/jerichodinozo.github.io/static/js/main.15414d5b.js.map",
-    "787.d57fd365.chunk.js.map": "/jerichodinozo.github.io/jerichodinozo.github.io/static/js/787.d57fd365.chunk.js.map"
+    "main.css": "/static/css/main.fa28d95e.css",
+    "main.js": "/static/js/main.5d84f67c.js",
+    "static/js/787.d57fd365.chunk.js": "/static/js/787.d57fd365.chunk.js",
+    "index.html": "/index.html",
+    "main.fa28d95e.css.map": "/static/css/main.fa28d95e.css.map",
+    "main.5d84f67c.js.map": "/static/js/main.5d84f67c.js.map",
+    "787.d57fd365.chunk.js.map": "/static/js/787.d57fd365.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa28d95e.css",
-    "static/js/main.15414d5b.js"
+    "static/js/main.5d84f67c.js"
   ]
 }
