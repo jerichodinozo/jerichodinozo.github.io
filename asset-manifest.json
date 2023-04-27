@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/jerichodinozo/jerichodinozo.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/jerichodinozo/jerichodinozo.github.io/static/js/main.da85b90a.js",
+    "main.css": "/jerichodinozo/jerichodinozo.github.io/static/css/main.fa28d95e.css",
+    "main.js": "/jerichodinozo/jerichodinozo.github.io/static/js/main.7f2f4a11.js",
     "static/js/787.d57fd365.chunk.js": "/jerichodinozo/jerichodinozo.github.io/static/js/787.d57fd365.chunk.js",
-    "static/media/logo.svg": "/jerichodinozo/jerichodinozo.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/jerichodinozo/jerichodinozo.github.io/index.html",
-    "main.073c9b0a.css.map": "/jerichodinozo/jerichodinozo.github.io/static/css/main.073c9b0a.css.map",
-    "main.da85b90a.js.map": "/jerichodinozo/jerichodinozo.github.io/static/js/main.da85b90a.js.map",
+    "main.fa28d95e.css.map": "/jerichodinozo/jerichodinozo.github.io/static/css/main.fa28d95e.css.map",
+    "main.7f2f4a11.js.map": "/jerichodinozo/jerichodinozo.github.io/static/js/main.7f2f4a11.js.map",
     "787.d57fd365.chunk.js.map": "/jerichodinozo/jerichodinozo.github.io/static/js/787.d57fd365.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.da85b90a.js"
+    "static/css/main.fa28d95e.css",
+    "static/js/main.7f2f4a11.js"
   ]
 }
