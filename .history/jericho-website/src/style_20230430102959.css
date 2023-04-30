@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@600&display=swap');
+div {
+}
+
+#navbar {
+    list-style-type: none;
+    float:left;
+}
+
+
+#homepage {
+    color: white;
+    background-color: #9CAF88;
+    height:100vh;
+    width:100vw;
+    margin-top: -15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#name-title {
+    margin-left: auto;
+    align-self: center;
+    text-align: right;
+    margin-top:auto;
+    margin-right: 10px;
+}
+
+#name-element {
+    font-family: 'Gantari', sans-serif;
+    font-size: 100px;
+    
+}
+
