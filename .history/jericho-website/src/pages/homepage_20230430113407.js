@@ -5,7 +5,14 @@ export default function homepage() {
     return (
         <>
         <div id="homepage">
-            <Navbar />
+            {/*<div id="nav-container">
+                <ul id="navbar">
+                    <li>work</li>
+                    <li>education</li>
+                    <li>contact</li>
+                </ul>
+            </div>*/}
+            <Navbar
 
             <div id="home-elements">
                 <div id="homepage-right">

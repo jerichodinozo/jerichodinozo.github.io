@@ -89,10 +89,10 @@ a:hover {
 
 #background-container {
     display: flex;
-    justify-content: space-evenly;
+    flex
 }
 
 #about-section {
-    width: 35vw;
+    width: 25vw;
 }
 

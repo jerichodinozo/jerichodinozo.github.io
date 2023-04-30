@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/work" element={<Workpage/>} />
         <Route path="/background" element={<Background/>} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="contact" element={<Contact/>} />
       </Routes>
 
     </Router>

@@ -87,12 +87,8 @@ a:hover {
     font-family: 'Gantari', sans-serif;
 }
 
-#background-container {
-    display: flex;
-    justify-content: space-evenly;
-}
 
 #about-section {
-    width: 35vw;
+    
 }
 

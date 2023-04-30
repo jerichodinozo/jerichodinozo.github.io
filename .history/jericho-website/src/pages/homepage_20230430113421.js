@@ -5,6 +5,7 @@ export default function homepage() {
     return (
         <>
         <div id="homepage">
+            
             <Navbar />
 
             <div id="home-elements">
