@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+:root {
+    --primaryfont: 'Montserrat', sans-serif;
+}
+
+div {
+}
+
+.stag-div {
+    display: flex;
+    overflow: hidden;
+}
+
+html {
+    background-color: #c8cfbd;
+    color: #1e1a16;
+    font-family: var(--primaryfont);
+}
+
+.page {
+    height: 100vh;
+}
+
+#navbar {
+    font-family: var(--primaryfont);
+    font-weight: bold;
+    color:#1e1a16;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1e1a16;
+}
+
+a:active {
+    color: #CBCBCB
+}
+
+a:hover {
+    color:#CBCBCB;
+    transition: 250ms ease-out;
+}
+
+.header {
+    font-family: var(--primaryfont);
+    font-size: 45px;
+}
+
+
+.body {
+    font-size: 20px;
+}
+
+#nav-container {
+    background-color: #c8cfbd;
+    display: flex;
+    justify-content: center;
+    
+}
+/**/
+
+
+#home-elements {
+    color: #1e1a16;
+    background-color: #c8cfbd;
+    height:100vh;
+    width:100vw;
+    margin-top: -15px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.name-title {
+    margin-left: auto;
+    font-family: var(--primaryfont);
+    font-weight: bold;
+    margin-top:auto;
+    margin-right: 10px;
+    font-size: 100px;
+    padding-bottom: 30px;
+}
+
+#name-element {
+    font-family: 'Gantari', sans-serif;
+    font-size: 100px;
+    padding-top: 100px;
+    
+}
+
+#homepage-right {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    
+}
+
+.worktitle-element{
+    margin-top: 100px;
+    font-family: var(--primaryfont);
+    font-weight: bold;
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+#symbol {
+    font-family: var(--primaryfont);
+    font-weight: bold;
+    margin-top:50px;
+    font-size: 300px;
+    text-align: end;
+}
+
+#location-element {
+    font-size: 20px;
+    font-family: 'Gantari', sans-serif;
+}
+
+#background-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*Projects page*/
+
+#projects-page {
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-item {
+    width: 40vw;
+
+}
+
+#project-1 {
+    width: 40vw;
+}
+
+#project-2 {
+   align-self: flex-end;
+   width: 40vw;
+}
+
+#project-3 {
+    width: 40vw;
+}
+
+#project-4 {
+    align-self: flex-end;
+    width: 40vw;
+}
+ 
+
+/*Skills and about page*/
+
+#skills-section {
+    text-align: left;
+    width: 40vw;
+}
+
+.skillsandabout {
+    margin-top: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#skill-icons {
+    font-size: 95px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+    margin: 20px;
+    font-weight: bold;
+}
+
+#react-icon {
+   
+}
+
+#diy {
+    font-size: 85px;
+    
+}
+
+#about-section {
+    text-align: left;
+    width: 40vw;
+    word-wrap: break-word
+}
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 30px;
+  }
+.skills {
+    margin-right: 40px;
+}
+  
+  
+
