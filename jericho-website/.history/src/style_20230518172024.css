@@ -221,7 +221,7 @@ a:hover {
     margin-right: 40px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 736px) {
     #navbar {
         visibility: hidden;
     }
@@ -234,10 +234,6 @@ a:hover {
     .worktitle-element {
         font-size: 45px;
         margin-left: 0;
-    }
-
-    #location-element {
-        visibility: hidden;
     }
 
     #symbol {
@@ -258,7 +254,7 @@ a:hover {
     #skill-icons {
         
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .page {

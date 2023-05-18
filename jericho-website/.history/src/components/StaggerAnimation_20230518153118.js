@@ -48,7 +48,6 @@ const StaggerAnimation = ({word}) => {
       className='stag-div'
       variants={disabled ? null : banner}
       whileInView = 'animate'
-      viewport={{once: true}}
       initial='initial'
       
       >

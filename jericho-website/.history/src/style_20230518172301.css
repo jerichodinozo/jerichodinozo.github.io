@@ -236,10 +236,6 @@ a:hover {
         margin-left: 0;
     }
 
-    #location-element {
-        visibility: hidden;
-    }
-
     #symbol {
         font-size: 90px;
         text-align: center;
@@ -258,7 +254,7 @@ a:hover {
     #skill-icons {
         
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .page {

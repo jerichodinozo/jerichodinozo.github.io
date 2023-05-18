@@ -221,10 +221,8 @@ a:hover {
     margin-right: 40px;
 }
 
-@media only screen and (max-width: 800px) {
-    #navbar {
-        visibility: hidden;
-    }
+@media only screen and (max-width: 736px) {
+
     
 
     #home-elements {
@@ -236,24 +234,15 @@ a:hover {
         margin-left: 0;
     }
 
-    #location-element {
-        visibility: hidden;
-    }
-
     #symbol {
         font-size: 90px;
         text-align: center;
-        padding-left: 0;
     }
 
     .name-title {
         font-size: 45px;
     }
 
-    #skills-section {
-        text-align: center;
-        justify-content: center;
-    }
 
     #skill-icons {
         
@@ -266,7 +255,7 @@ a:hover {
     }
 
     .header {
-        font-size: 20px;
+        
     }
 
     .body {

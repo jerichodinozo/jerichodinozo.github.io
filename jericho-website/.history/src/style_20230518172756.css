@@ -237,7 +237,7 @@ a:hover {
     }
 
     #location-element {
-        visibility: hidden;
+        
     }
 
     #symbol {
@@ -258,7 +258,7 @@ a:hover {
     #skill-icons {
         
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .page {

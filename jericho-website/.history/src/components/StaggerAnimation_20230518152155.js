@@ -26,14 +26,7 @@ const banner = {
   };
   
 const StaggerAnimation = ({word}) => {
-  const controls = useAnimation();
-    const { ref, inView } = useInView();
-    useEffect(() => {
-    if (inView) {
-      controls.start('animate');
-    }
-    
-    }, [controls, inView]);
+  
     
     return (
       <motion.div  variants={banner}>
@@ -47,8 +40,7 @@ const StaggerAnimation = ({word}) => {
     <motion.div 
       className='stag-div'
       variants={disabled ? null : banner}
-      whileInView = 'animate'
-      viewport={{once: true}}
+      animate = 'animate'
       initial='initial'
       
       >

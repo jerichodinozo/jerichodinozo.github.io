@@ -42,13 +42,12 @@ const StaggerAnimation = ({word}) => {
     );
   };
   
-  const AnimatedLetters = ({ title, disabled }) => {
+  const AnimatedLetters = ({ title, disabled, controls }) => {
     return(
     <motion.div 
       className='stag-div'
       variants={disabled ? null : banner}
-      whileInView = 'animate'
-      viewport={{once: true}}
+      animate = 'animate'
       initial='initial'
       
       >

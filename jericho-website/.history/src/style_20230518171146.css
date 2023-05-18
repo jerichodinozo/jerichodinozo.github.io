@@ -221,10 +221,8 @@ a:hover {
     margin-right: 40px;
 }
 
-@media only screen and (max-width: 800px) {
-    #navbar {
-        visibility: hidden;
-    }
+@media only screen and (max-width: 736px) {
+
     
 
     #home-elements {
@@ -236,45 +234,27 @@ a:hover {
         margin-left: 0;
     }
 
-    #location-element {
-        visibility: hidden;
-    }
-
     #symbol {
         font-size: 90px;
         text-align: center;
-        padding-left: 0;
     }
 
     .name-title {
         font-size: 45px;
     }
 
-    #skills-section {
-        text-align: center;
-        justify-content: center;
-    }
-
     #skill-icons {
-        
+        font-size: 95px;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     .page {
-        height: 110vh;
+        height: 150vh;
     }
 
-    .header {
-        font-size: 20px;
-    }
-
-    .body {
-        font-size: 12px;
-    }
-
-    .icon {
-        font-size: 50px;
+    p {
+        font
     }
 
 
