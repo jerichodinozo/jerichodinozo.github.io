@@ -172,15 +172,7 @@ a:hover {
 
 #page1 {
     display: flex;
-    justify-content: space-evenly;
-}
-
-.page-title-div {
-    width: 20%;
-}
-
-#page-title{
-    margin-top: 40vh;
+    justify-content: space-between;
 }
 
 #skills-section {

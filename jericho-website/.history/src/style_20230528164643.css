@@ -172,7 +172,7 @@ a:hover {
 
 #page1 {
     display: flex;
-    justify-content: space-evenly;
+    
 }
 
 .page-title-div {
@@ -189,6 +189,7 @@ a:hover {
 }
 
 .skillsandabout {
+    justify-self: center;
     margin-top: 40vh;
     display: flex;
     flex-direction: column;

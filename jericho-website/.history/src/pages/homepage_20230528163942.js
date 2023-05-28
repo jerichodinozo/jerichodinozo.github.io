@@ -49,16 +49,9 @@ export default function homepage() {
         </div>
 
 
-    <div id="page1">
-        <div class="page-title-div">
-        <motion.h2 
-        id="page-title"
-        initial={{opacity:0}}
-        whileInView={{ opacity:1}}
-        viewport={{once:true}}
-        transition={{duration: 1.5}}>
-            PAGE 1: <br></br> ABOUT ME</motion.h2>
-        </div>
+<div id="page1">
+        <h2>PAGE 1:</h2>
+
         <div id="background-container" class="page skillsandabout ">
             
                
@@ -120,7 +113,7 @@ export default function homepage() {
             </div>
                
         
-        </div>
+</div>
         <div class="page">
             <StaggerAnimation word="Projects" />
         </div>

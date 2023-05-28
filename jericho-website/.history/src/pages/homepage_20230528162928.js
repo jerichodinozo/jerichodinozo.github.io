@@ -37,7 +37,7 @@ export default function homepage() {
                         &lt;/&gt;
                     </motion.h1>
                    
-                    
+                    <h3 id="location-element">Based in <br></br>Winnipeg,<br></br> Manitoba</h3>
                 </div>
 
                 <motion.div className="name-title">
@@ -49,19 +49,10 @@ export default function homepage() {
         </div>
 
 
-    <div id="page1">
-        <div class="page-title-div">
-        <motion.h2 
-        id="page-title"
-        initial={{opacity:0}}
-        whileInView={{ opacity:1}}
-        viewport={{once:true}}
-        transition={{duration: 1.5}}>
-            PAGE 1: <br></br> ABOUT ME</motion.h2>
-        </div>
         <div id="background-container" class="page skillsandabout ">
-            
-               
+                <div>
+                    <h1>PAGE 1: <br></br>RECENT PROJECTS</h1>
+                </div>
                 <div id="about-section">
                     <div class="header"><StaggerAnimation word="ABOUT"/></div>
                         <motion.p 
@@ -117,10 +108,9 @@ export default function homepage() {
                         <svg class="icon" fill="currentColor" height="1em" width="1em" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M15,5.6,10.4,1A3.4,3.4,0,0,0,5.78.86L7.66,2.74a1.25,1.25,0,0,1,1.67,1.2V4a1.23,1.23,0,0,1-.08.38l2.45,2.4a1.17,1.17,0,0,1,.37-.08A1.3,1.3,0,1,1,10.77,8h0a1.17,1.17,0,0,1,.08-.37L8.6,5.38v5.23a1.28,1.28,0,0,1,.73,1.15,1.3,1.3,0,0,1-2.6,0,1.27,1.27,0,0,1,.67-1.11V5.07A1.27,1.27,0,0,1,6.73,4a1.17,1.17,0,0,1,.08-.37l-1.9-1.9L1,5.6a3.38,3.38,0,0,0,0,4.79H1L5.6,15a3.38,3.38,0,0,0,4.79,0h0L15,10.4a3.38,3.38,0,0,0,0-4.79Z"></path> </g> </g></svg>
                     </motion.div>
                 </div>
-            </div>
                
-        
         </div>
+
         <div class="page">
             <StaggerAnimation word="Projects" />
         </div>

@@ -4,9 +4,9 @@
     --primaryfont: 'Montserrat', sans-serif;
     --primarycolor: var(--white);
     --secondarycolor: #ffffff;
-    --background-color: black;
+    --background-color: var(--black);
 
-    --black:#1e1a16;
+    --black:#000000;
     --white:#ffffff;
 }
 
@@ -20,8 +20,12 @@ div {
 
 html {
     background-color: var(--background-color);
-    color: var(--primarycolor);
+    color: #1e1a16;
     font-family: var(--primaryfont);
+}
+
+.page {
+    height: 100vh;
 }
 
 #navbar {
@@ -38,7 +42,7 @@ a {
 }
 
 a:visited {
-    color: var(--primarycolor);
+    color: #1e1a16;
 }
 
 a:active {
@@ -75,7 +79,7 @@ a:hover {
 
 
 #home-elements {
-    color: var(--primarycolor);
+    color: #1e1a16;
     height:100vh;
     width:100vw;
     margin-top: -15px;
@@ -169,19 +173,6 @@ a:hover {
  
 
 /*Skills and about page*/
-
-#page1 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.page-title-div {
-    width: 20%;
-}
-
-#page-title{
-    margin-top: 40vh;
-}
 
 #skills-section {
     text-align: left;

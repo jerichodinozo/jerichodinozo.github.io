@@ -172,7 +172,7 @@ a:hover {
 
 #page1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .page-title-div {

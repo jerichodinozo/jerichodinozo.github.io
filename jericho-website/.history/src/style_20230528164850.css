@@ -189,6 +189,7 @@ a:hover {
 }
 
 .skillsandabout {
+    justify-self: ;
     margin-top: 40vh;
     display: flex;
     flex-direction: column;

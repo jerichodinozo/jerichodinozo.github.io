@@ -37,7 +37,7 @@ export default function homepage() {
                         &lt;/&gt;
                     </motion.h1>
                    
-                    
+                    <h3 id="location-element">Based in <br></br>Winnipeg,<br></br> Manitoba</h3>
                 </div>
 
                 <motion.div className="name-title">
@@ -49,19 +49,10 @@ export default function homepage() {
         </div>
 
 
-    <div id="page1">
-        <div class="page-title-div">
-        <motion.h2 
-        id="page-title"
-        initial={{opacity:0}}
-        whileInView={{ opacity:1}}
-        viewport={{once:true}}
-        transition={{duration: 1.5}}>
-            PAGE 1: <br></br> ABOUT ME</motion.h2>
-        </div>
+       
+
+        
         <div id="background-container" class="page skillsandabout ">
-            
-               
                 <div id="about-section">
                     <div class="header"><StaggerAnimation word="ABOUT"/></div>
                         <motion.p 
@@ -116,11 +107,11 @@ export default function homepage() {
                         <svg class="icon" fill="currentColor" width="1em" height="1em" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M 16 5 C 11.011719 5 11 7 11 7 L 11 11 L 17 11 L 17 12 L 7 12 C 7 12 4 11.539063 4 17 C 4 22.460938 7 22 7 22 L 10 22 L 10 20.375 C 10 17.964844 11.964844 16 14.375 16 L 17.625 16 C 19.484375 16 21 15.484375 21 13.625 L 21 7 C 21 7 20.988281 5 16 5 Z M 13 7 C 13.550781 7 14 7.449219 14 8 C 14 8.550781 13.550781 9 13 9 C 12.449219 9 12 8.550781 12 8 C 12 7.449219 12.449219 7 13 7 Z M 22 11 L 22 13.625 C 22 16.035156 20.035156 17 17.625 17 L 14.375 17 C 12.515625 17 11 18.515625 11 20.375 L 11 26 C 11 26 11.0625 28 16 28 C 20.9375 28 21 26 21 26 L 21 22 L 15 22 L 15 21 L 25 21 C 25 21 28 21.503906 28 16 C 28 10.496094 25 11 25 11 Z M 19 24 C 19.550781 24 20 24.449219 20 25 C 20 25.550781 19.550781 26 19 26 C 18.449219 26 18 25.550781 18 25 C 18 24.449219 18.449219 24 19 24 Z"></path></g></svg>
                         <svg class="icon" fill="currentColor" height="1em" width="1em" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <path d="M15,5.6,10.4,1A3.4,3.4,0,0,0,5.78.86L7.66,2.74a1.25,1.25,0,0,1,1.67,1.2V4a1.23,1.23,0,0,1-.08.38l2.45,2.4a1.17,1.17,0,0,1,.37-.08A1.3,1.3,0,1,1,10.77,8h0a1.17,1.17,0,0,1,.08-.37L8.6,5.38v5.23a1.28,1.28,0,0,1,.73,1.15,1.3,1.3,0,0,1-2.6,0,1.27,1.27,0,0,1,.67-1.11V5.07A1.27,1.27,0,0,1,6.73,4a1.17,1.17,0,0,1,.08-.37l-1.9-1.9L1,5.6a3.38,3.38,0,0,0,0,4.79H1L5.6,15a3.38,3.38,0,0,0,4.79,0h0L15,10.4a3.38,3.38,0,0,0,0-4.79Z"></path> </g> </g></svg>
                     </motion.div>
+
                 </div>
-            </div>
                
-        
         </div>
+
         <div class="page">
             <StaggerAnimation word="Projects" />
         </div>

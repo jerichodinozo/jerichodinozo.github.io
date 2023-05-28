@@ -170,19 +170,6 @@ a:hover {
 
 /*Skills and about page*/
 
-#page1 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.page-title-div {
-    width: 20%;
-}
-
-#page-title{
-    margin-top: 40vh;
-}
-
 #skills-section {
     text-align: left;
     width: 40vw;

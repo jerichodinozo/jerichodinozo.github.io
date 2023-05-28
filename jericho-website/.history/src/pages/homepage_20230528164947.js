@@ -52,11 +52,7 @@ export default function homepage() {
     <div id="page1">
         <div class="page-title-div">
         <motion.h2 
-        id="page-title"
-        initial={{opacity:0}}
-        whileInView={{ opacity:1}}
-        viewport={{once:true}}
-        transition={{duration: 1.5}}>
+        id="page-title">
             PAGE 1: <br></br> ABOUT ME</motion.h2>
         </div>
         <div id="background-container" class="page skillsandabout ">

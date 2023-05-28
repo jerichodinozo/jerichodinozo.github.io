@@ -24,6 +24,10 @@ html {
     font-family: var(--primaryfont);
 }
 
+.page {
+    height: 100vh;
+}
+
 #navbar {
     font-family: var(--primaryfont);
     font-weight: bold;
@@ -169,19 +173,6 @@ a:hover {
  
 
 /*Skills and about page*/
-
-#page1 {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.page-title-div {
-    width: 20%;
-}
-
-#page-title{
-    margin-top: 40vh;
-}
 
 #skills-section {
     text-align: left;
