@@ -343,7 +343,6 @@ a:hover {
     .project-container {
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
     }
 
     .projects-sect {
@@ -355,19 +354,7 @@ a:hover {
     }
 
     .img {
-        width: 250px;
-    }
-
-    #contact-page {
-        margin-top: 0;
-    }
-
-    #email-text {
-        font-size: 30px;
-    }
-
-    #contact-icons {
-        font-size: 40px;
+        width: 30px;
     }
 
     .page {
@@ -391,5 +378,9 @@ a:hover {
 
 }
 
+#ass{
+    
+}
+  
   
 

@@ -9,10 +9,10 @@ export default function navbar() {
             transition={{duration:2, ease: easeInOut}}
         >
                 <ul id="navbar">
-                    <li> <Link to="/">home</Link></li>
-                    <li> <a href="#page2">about</a></li>
-                    <li><a href="#page3">work</a></li>
-                    <li><a href="#page4">contact</a></li>
+                    <li> <a hrea="/">home</a></li>
+                    <li> <Link to="#page2">work</Link></li>
+                    <li><Link to="/background">background</Link></li>
+                    <li><Link to="/contact">contact</Link></li>
                 </ul>
             </motion.div>
     )

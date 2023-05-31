@@ -319,16 +319,6 @@ a:hover {
         font-size: 60px;
     }
 
-    #page-title {
-        padding-top: 0;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .skillsandabout{
-        margin-top: 20vh;
-    }
-
     #skills-section {
         text-align: center;
         justify-content: center;
@@ -338,36 +328,6 @@ a:hover {
         
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-
-    .project-container {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .projects-sect {
-
-    }
-
-    .project-title {
-        font-size: 40px;
-    }
-
-    .img {
-        width: 250px;
-    }
-
-    #contact-page {
-        margin-top: 0;
-    }
-
-    #email-text {
-        font-size: 30px;
-    }
-
-    #contact-icons {
-        font-size: 40px;
     }
 
     .page {
@@ -391,5 +351,9 @@ a:hover {
 
 }
 
+#ass{
+    
+}
+  
   
 

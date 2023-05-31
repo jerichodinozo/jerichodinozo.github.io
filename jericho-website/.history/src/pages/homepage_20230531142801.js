@@ -127,7 +127,7 @@ export default function homepage() {
 
         <div class="page-break"></div>
 
-        <div id='page3'class='page'>
+        <div id='class='page'>
             <motion.div 
                 class='page-title-div' 
                 initial={{opacity:0}}
@@ -156,7 +156,7 @@ export default function homepage() {
 
         <div class="page-break"></div>
 
-        <div id='page4'>
+        <div id='page3'>
             <div class="page">
                 <div class="page-title-div">
                     <motion.h2 

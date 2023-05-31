@@ -358,15 +358,7 @@ a:hover {
         width: 250px;
     }
 
-    #contact-page {
-        margin-top: 0;
-    }
-
     #email-text {
-        font-size: 30px;
-    }
-
-    #contact-icons {
         font-size: 40px;
     }
 
@@ -391,5 +383,9 @@ a:hover {
 
 }
 
+#ass{
+    
+}
+  
   
 

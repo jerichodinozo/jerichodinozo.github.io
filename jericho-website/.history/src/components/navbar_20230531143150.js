@@ -12,7 +12,7 @@ export default function navbar() {
                     <li> <Link to="/">home</Link></li>
                     <li> <a href="#page2">about</a></li>
                     <li><a href="#page3">work</a></li>
-                    <li><a href="#page4">contact</a></li>
+                    <li><a to="/contact">contact</a></li>
                 </ul>
             </motion.div>
     )

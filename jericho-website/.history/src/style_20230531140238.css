@@ -366,10 +366,6 @@ a:hover {
         font-size: 30px;
     }
 
-    #contact-icons {
-        font-size: 40px;
-    }
-
     .page {
         display: flex;
         flex-direction: column;
@@ -391,5 +387,9 @@ a:hover {
 
 }
 
+#ass{
+    
+}
+  
   
 
