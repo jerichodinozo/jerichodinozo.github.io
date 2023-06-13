@@ -26,6 +26,7 @@ export default function homepage() {
             
             <div id="home-elements" className="banner">
                 <div id="homepage-right" className="worktitle-element">
+                    {/*<h3 id="worktitle-element">SOFTWARE<br></br>ENGINEER</h3>*/}
                     <StaggerAnimation word="SOFTWARE" />
                     <StaggerAnimation word="ENGINEER" />
                     <motion.h1 id="symbol"
@@ -72,7 +73,9 @@ export default function homepage() {
                           duration: 1.5,
                           delay: 0.4,
                         }}
-                        class="body">I am a passionate and dedicated third-year computer science student. With a strong curiosity for technology and problem-solving, I find myself constantly immersed in the world of computers and programming. From a young age, I was captivated by the power of coding and its ability to bring ideas to life.</motion.p>
+                        class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci quam, venenatis vel velit ut, tincidunt finibus dui. 
+                        Maecenas nec ex purus. Etiam viverra tellus congue, porttitor diam nec, laoreet velit. Sed pulvinar molestie massa, 
+                        sed auctor magna viverra quis. Duis hendrerit leo sed erat porttitor</motion.p>
                         
                         {/*<h1 class="header">Education</h1>*/}
                     <div class="header"><StaggerAnimation word="EDUCATION" className="header"/></div>

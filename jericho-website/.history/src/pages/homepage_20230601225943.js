@@ -26,6 +26,8 @@ export default function homepage() {
             
             <div id="home-elements" className="banner">
                 <div id="homepage-right" className="worktitle-element">
+                    {/*<h3 id="worktitle-element">SOFTWARE<br></br>ENGINEER</h3>*/}
+                    
                     <StaggerAnimation word="SOFTWARE" />
                     <StaggerAnimation word="ENGINEER" />
                     <motion.h1 id="symbol"
@@ -35,6 +37,8 @@ export default function homepage() {
                     >
                         &lt;/&gt;
                     </motion.h1>
+                   
+                    
                 </div>
 
                 <motion.div className="name-title">
@@ -72,23 +76,24 @@ export default function homepage() {
                           duration: 1.5,
                           delay: 0.4,
                         }}
-                        class="body">I am a passionate and dedicated third-year computer science student. With a strong curiosity for technology and problem-solving, I find myself constantly immersed in the world of computers and programming. From a young age, I was captivated by the power of coding and its ability to bring ideas to life.</motion.p>
+                        class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam orci quam, venenatis vel velit ut, tincidunt finibus dui. 
+                        Maecenas nec ex purus. Etiam viverra tellus congue, porttitor diam nec, laoreet velit. Sed pulvinar molestie massa, 
+                        sed auctor magna viverra quis. Duis hendrerit leo sed erat porttitor</motion.p>
                         
                         {/*<h1 class="header">Education</h1>*/}
                     <div class="header"><StaggerAnimation word="EDUCATION" className="header"/></div>
                         <motion.p 
-                            initial={{ opacity: 0, y: 80 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{once:true}}
-                            transition={{
-                            ease: "easeInOut",
-                            duration: 1.5,
-                            delay: 0.4,
-                            }}
-                            class="body"><span>BSc. Computer Science</span><br></br>
-                            <span>University of Manitoba</span><br></br>
-                            <span>2018-2024</span>
-                        </motion.p>
+                        initial={{ opacity: 0, y: 80 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{once:true}}
+                        transition={{
+                          ease: "easeInOut",
+                          duration: 1.5,
+                          delay: 0.4,
+                        }}
+                        class="body"><span>BSc. Computer Science</span><br></br>
+                        <span>University of Manitoba</span><br></br>
+                        <span>2018-2024</span></motion.p>
                 </div>
                     
                 <div id="skills-section">
@@ -131,7 +136,7 @@ export default function homepage() {
                 viewport={{once:true}}
                 transition={{duration: 1.5}}> 
                 <h2 id='page-title'>PAGE 2: <br></br>RECENT<br></br>WORKS</h2>
-            </motion.div>
+                </motion.div>
                 <div class="skillsandabout projects-sect">
                     <ProjectItem title="PROJECT1" />
                     <ProjectItem title="PROJECT2" />
