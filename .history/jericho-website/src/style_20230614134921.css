@@ -258,7 +258,7 @@ a:hover {
 .project-title {
     font-size: 70px;
     font-weight: bold;
-    
+    align-self: center;
     
 }
 

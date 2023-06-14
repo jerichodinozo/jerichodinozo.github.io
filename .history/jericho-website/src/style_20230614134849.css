@@ -258,13 +258,13 @@ a:hover {
 .project-title {
     font-size: 70px;
     font-weight: bold;
-    
+    align-self: center;
     
 }
 
 .img {
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     background-color: blue;
 }
 

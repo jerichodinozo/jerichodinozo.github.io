@@ -15,7 +15,7 @@ const ProjectItem = ({title}) => {
                 delay: 0.4,
             }}>
             <div class="img"></div>
-            <div className="project-title"> {title}</div>
+            <div className="project-title"><StaggerAnimation className='project-title' word={title} /></div>
         </motion.div>
     )
 }
