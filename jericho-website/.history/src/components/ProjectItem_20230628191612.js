@@ -2,7 +2,7 @@ import React from 'react';
 import {motion} from 'framer-motion';
 import StaggerAnimation from './StaggerAnimation';
 
-const ProjectItem = ({title, id, link}) => {
+const ProjectItem = ({title, id}) => {
     return (
         <motion.div 
             class="project-container"
@@ -14,10 +14,8 @@ const ProjectItem = ({title, id, link}) => {
                 duration: 1.5,
                 delay: 0.4,
             }}>
-            <a href={link}>
-            <div class="img" id={id}></div>
+            <div class="img" id=></div>
             <div className="project-title"> {title}</div>
-            </a>
         </motion.div>
     )
 }

@@ -38,11 +38,6 @@ a {
     color: inherit;
 }
 
-a:link {
-    text-decoration: none;
-    color: inherit;
-}
-
 
 a:visited {
     color: var(--primarycolor);
@@ -270,20 +265,11 @@ a:hover {
 .img {
     width: 600px;
     height: 400px;
-    
-}
-
-#proj-1 {
     background: url('./pictures/lucky7.png');
-    background-size:cover;
-    background-position: center;
+    background-size: contain;
 }
 
-#proj-2 {
-    background: url('./pictures/tring5.png');
-    background-size:cover;
-    background-position: center;
-}
+
 
 #contact-page {
     margin-top: 20vh;

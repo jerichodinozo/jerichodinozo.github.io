@@ -38,11 +38,6 @@ a {
     color: inherit;
 }
 
-a:link {
-    text-decoration: none;
-    color: inherit;
-}
-
 
 a:visited {
     color: var(--primarycolor);
@@ -280,9 +275,7 @@ a:hover {
 }
 
 #proj-2 {
-    background: url('./pictures/tring5.png');
-    background-size:cover;
-    background-position: center;
+    background
 }
 
 #contact-page {

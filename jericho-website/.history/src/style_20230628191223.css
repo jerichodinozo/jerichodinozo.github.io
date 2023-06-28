@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gantari:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600&display=swap');
+@import url('./pictures/')
 :root {
     --primaryfont: 'Montserrat', sans-serif;
     --primarycolor: var(--white);
@@ -34,11 +35,6 @@ html {
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:link {
     text-decoration: none;
     color: inherit;
 }
@@ -270,19 +266,7 @@ a:hover {
 .img {
     width: 600px;
     height: 400px;
-    
-}
-
-#proj-1 {
-    background: url('./pictures/lucky7.png');
-    background-size:cover;
-    background-position: center;
-}
-
-#proj-2 {
-    background: url('./pictures/tring5.png');
-    background-size:cover;
-    background-position: center;
+    background-color: blue;
 }
 
 #contact-page {

@@ -133,8 +133,10 @@ export default function homepage() {
                 <h2 id='page-title'>PAGE 2: <br></br>RECENT<br></br>WORKS</h2>
             </motion.div>
                 <div class="skillsandabout projects-sect">
-                    <ProjectItem title="LUCKY 7" id="proj-1" link="https://lucky7collections.netlify.app"/>
-                    <ProjectItem title="TRING5" id="proj-2" link="https://tring5.netlify.app"/>
+                    <ProjectItem title="LUCKY 7" id="proj-1"/>
+                    <ProjectItem title="TRING 5" id="proj-2"/>
+                    <ProjectItem title="PROJECT3" />
+                    <ProjectItem title="PROJECT4" />
                 </div>
         </div>
 

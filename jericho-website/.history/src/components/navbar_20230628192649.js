@@ -9,7 +9,7 @@ export default function navbar() {
             transition={{duration:2, ease: easeInOut}}
         >
                 <ul id="navbar">
-                    <li> <a href="#homepage">home</a></li>
+                    <li> <a href="/">home</a></li>
                     <li> <a href="#page2">about</a></li>
                     <li><a href="#page3">work</a></li>
                     <li><a href="#page4">contact</a></li>

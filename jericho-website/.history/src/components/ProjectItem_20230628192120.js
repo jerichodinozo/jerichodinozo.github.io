@@ -14,10 +14,9 @@ const ProjectItem = ({title, id, link}) => {
                 duration: 1.5,
                 delay: 0.4,
             }}>
-            <a href={link}>
+            <a>
             <div class="img" id={id}></div>
             <div className="project-title"> {title}</div>
-            </a>
         </motion.div>
     )
 }

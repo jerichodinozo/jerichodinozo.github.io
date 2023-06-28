@@ -134,7 +134,7 @@ export default function homepage() {
             </motion.div>
                 <div class="skillsandabout projects-sect">
                     <ProjectItem title="LUCKY 7" id="proj-1" link="https://lucky7collections.netlify.app"/>
-                    <ProjectItem title="TRING5" id="proj-2" link="https://tring5.netlify.app"/>
+                    <ProjectItem title="TRING5" id="proj-2"/>
                 </div>
         </div>
 
