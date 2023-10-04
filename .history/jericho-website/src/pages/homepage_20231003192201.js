@@ -87,7 +87,7 @@ export default function homepage() {
                             }}
                             class="body"><span>BSc. Computer Science</span><br></br>
                             <span>University of Manitoba</span><br></br>
-                            <span>2018-2024</span>
+                            <span>2019-2024</span>
                         </motion.p>
                 </div>
                     
@@ -133,10 +133,8 @@ export default function homepage() {
                 <h2 id='page-title'>PAGE 2: <br></br>RECENT<br></br>WORKS</h2>
             </motion.div>
                 <div class="skillsandabout projects-sect">
-                    <ProjectItem title="PROJECT1" />
-                    <ProjectItem title="PROJECT2" />
-                    <ProjectItem title="PROJECT3" />
-                    <ProjectItem title="PROJECT4" />
+                    <ProjectItem title="LUCKY 7" id="proj-1" link="https://lucky7collections.netlify.app"/>
+                    <ProjectItem title="TRING5" id="proj-2" link="https://tring5.netlify.app"/>
                 </div>
         </div>
 
