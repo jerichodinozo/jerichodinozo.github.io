@@ -16,7 +16,7 @@ export default function background() {
                 <h1 class="header">Education</h1>
                 <p class="body"><span>BSc. Computer Science</span><br></br>
                 <span>University of Manitoba</span><br></br>
-                <span>2018-2024</span></p>
+                <span>Expected Graduation: 2026</span></p>
 
             </div>
 
